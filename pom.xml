@@ -120,16 +120,14 @@
       </plugin>
     </plugins>
   </reporting>
-<distributionManagement>
-  <repository>
-    <id>releases</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://192.168.33.10:8090/nexus/content/repositories/releases</url>
-  </repository>
-  <snapshotRepository>
-    <id>snapshots</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://192.168.33.10:8090/nexus/content/repositories/snapshots</url>
-  </snapshotRepository>
-</distributionManagement>
+<distributionManagement>   
+ <repository>  
+  <id>nexusid</id> 
+  <url>http://192.168.33.22:8080/nexus/content/repositories/releases/</url>  
+ </repository>  
+ <snapshotRepository>  
+  <id>nexusid</id>
+  <url>http://192.168.33.22:8080/nexus/content/repositories/snapshots/</url>  
+ </snapshotRepository>  
+</distributionManagement>  
 </project>
