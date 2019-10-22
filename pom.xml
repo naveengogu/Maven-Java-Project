@@ -15,18 +15,6 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
          
-<distributionManagement>  
- <repository> 
-  <id>nexusid</id>
-  <url>http://192.168.33.10:8080/nexus/content/repositories/releases/</url> 
- </repository> 
- <snapshotRepository> 
-  <id>nexusid</id>
-  <url>http://192.168.33.10:8080/nexus/content/repositories/snapshots/</url> 
- </snapshotRepository> 
-</distributionManagement> 
-
-
   <dependencies>
     <!-- Testing dependencies. -->
     <dependency>
